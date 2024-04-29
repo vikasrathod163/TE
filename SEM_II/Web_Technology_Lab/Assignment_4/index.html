@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input id="output" type="text" disabled>
+        <div class="btns">
+            <button onclick="appendVal('1')">1</button>
+            <button onclick="appendVal('2')">2</button>
+            <button onclick="appendVal('3')">3</button>
+            <button onclick="appendVal('+')">+</button>
+            <button onclick="appendVal('4')">4</button>
+            <button onclick="appendVal('5')">5</button>
+            <button onclick="appendVal('6')">6</button>
+            <button onclick="appendVal('-')">-</button>
+            <button onclick="appendVal('7')">7</button>
+            <button onclick="appendVal('8')">8</button>
+            <button onclick="appendVal('9')">9</button>
+            <button onclick="appendVal('*')">*</button>
+            <button onclick="clearoutput()">C</button>
+            <button onclick="appendVal('0')">0</button>
+            <button onclick="square()">x<sup>2</sup></button>
+            <button onclick="calculate()">=</button>
+            <button onclick="cube()">x<sup>3</sup></button>
+            <button onclick="fact()">!</button>
+            <button onclick="sroot()">SR</button>
+            <button onclick="ac()">AC</button>
+
+        </div>
+    </div>
+    <script src="cal.js">
+
+
+    </script>
+</body>
+</html>

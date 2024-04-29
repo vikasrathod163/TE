@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="emp.css" type="text/css"?>
+<?xml-stylesheet href="employee.xsl" type="text/xsl"?> 
+
+<employees>
+    <info>
+        <name>Vikas</name>
+        <age>21</age>
+        <salary>20000</salary>
+        <address>Dhule</address>
+    </info>
+
+    <info>
+        <name>Vijay</name>
+        <age>22</age>
+        <salary>202000</salary>
+        <address>Nashik</address>
+    </info>
+
+    <info>
+        <name>Nitin</name>
+        <age>21</age>
+        <salary>2000000</salary>
+        <address>Pune</address>
+    </info>
+
+    <info>
+        <name>Raj</name>
+        <age>23</age>
+        <salary>220000</salary>
+        <address>Dhule</address>
+    </info>
+    
+</employees>
